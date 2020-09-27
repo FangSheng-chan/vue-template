@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24e9853b-daf3-4556-97a8-e80b1e47a636" name="Default Changelist" comment="1K" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/Downloads/java/environment/maven/maven-repository" />
+        <option name="mavenHome" value="$USER_HOME$/Downloads/java/environment/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$USER_HOME$/Downloads/java/environment/maven/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1i4dL0afLGkBpCXyWJAk31pIxeW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views/dashboard/admin/components" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/views/dashboard/admin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/views/dashboard/admin/components" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/views/dashboard/components" />
+      <recent name="$PROJECT_DIR$/src/icons/svg" />
+      <recent name="$PROJECT_DIR$/src/views/products" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24e9853b-daf3-4556-97a8-e80b1e47a636" name="Default Changelist" comment="" />
+      <created>1601170738938</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601170738938</updated>
+      <workItem from="1601170741648" duration="12336000" />
+      <workItem from="1601193664095" duration="5658000" />
+    </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1601199305127</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601199305127</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3334" y="412" key="#Notifications" timestamp="1601199354930">
+      <screen x="2560" y="23" width="1792" height="1039" />
+    </state>
+    <state x="3334" y="412" key="#Notifications/2560.23.1792.1039/0.23.2560.1417@2560.23.1792.1039" timestamp="1601199354930" />
+    <state x="3286" y="446" width="586" height="248" key="Github.ShareDialog" timestamp="1601199152254">
+      <screen x="2560" y="23" width="1792" height="1039" />
+    </state>
+    <state x="3286" y="446" width="586" height="248" key="Github.ShareDialog/2560.23.1792.1039/0.23.2560.1417@2560.23.1792.1039" timestamp="1601199152254" />
+    <state x="553" y="201" key="SettingsEditor" timestamp="1601175048898">
+      <screen x="0" y="23" width="1792" height="1039" />
+    </state>
+    <state x="553" y="201" key="SettingsEditor/0.23.1792.1039@0.23.1792.1039" timestamp="1601175048898" />
+    <state x="3051" y="282" key="Vcs.Push.Dialog.v2" timestamp="1601199340874">
+      <screen x="2560" y="23" width="1792" height="1039" />
+    </state>
+    <state x="3051" y="282" key="Vcs.Push.Dialog.v2/2560.23.1792.1039/0.23.2560.1417@2560.23.1792.1039" timestamp="1601199340874" />
+    <state x="3204" y="438" width="733" height="208" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601199413849">
+      <screen x="2560" y="23" width="1792" height="1039" />
+    </state>
+    <state x="3204" y="438" width="733" height="208" key="git4idea.remote.GitConfigureRemotesDialog/2560.23.1792.1039/0.23.2560.1417@2560.23.1792.1039" timestamp="1601199413849" />
+    <state x="1060" y="343" width="670" height="676" key="search.everywhere.popup" timestamp="1601183460226">
+      <screen x="0" y="23" width="2560" height="1359" />
+    </state>
+    <state x="1060" y="343" width="670" height="676" key="search.everywhere.popup/2560.23.1792.1097/0.23.2560.1359@0.23.2560.1359" timestamp="1601183460226" />
+  </component>
+</project>
