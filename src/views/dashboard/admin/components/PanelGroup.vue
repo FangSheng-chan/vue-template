@@ -123,6 +123,8 @@
         color: #34bfa3
       }
 
+
+
       .card-panel-icon-wrapper {
         float: left;
         margin: 14px 0 0 14px;

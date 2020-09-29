@@ -12,17 +12,42 @@
         </template>
       </el-table-column>
 
-      <el-table-column label="商品ID">
-        <template slot-scope="scope">
-          {{ scope.row.id }}
-        </template>
-      </el-table-column>
-
       <el-table-column label="商品名称">
         <template slot-scope="scope">
           {{ scope.row.name }}
         </template>
       </el-table-column>
+
+      <el-table-column label="商品类型">
+        <template slot-scope="scope">
+          {{ scope.row.price }}
+        </template>
+      </el-table-column>
+
+      <el-table-column label="进货价格">
+        <template slot-scope="scope">
+          {{ scope.row.price }}
+        </template>
+      </el-table-column>
+
+      <el-table-column label="出售价格">
+        <template slot-scope="scope">
+          {{ scope.row.salePrice }}
+        </template>
+      </el-table-column>
+
+      <el-table-column label="进货日期">
+        <template slot-scope="scope">
+          {{ scope.row.price }}
+        </template>
+      </el-table-column>
+
+      <el-table-column label="库存量">
+        <template slot-scope="scope">
+          {{ scope.row.stock }}
+        </template>
+      </el-table-column>
+
 <!--      <el-table-column label="Author" width="110" align="center">-->
 <!--        <template slot-scope="scope">-->
 <!--          <span>{{ scope.row.author }}</span>-->
@@ -60,8 +85,9 @@ export default {
           "name": "德芙",
           "images": "1",
           "price": 13,
-          "salePrice": 999,
+          "salePrice": 25,
           "typeId": 1,
+          "stock": 999,
           "typeName": "巧克力",
           "flag": null,
           "createTime": "2020-09-27T11:36:04.000+0000",

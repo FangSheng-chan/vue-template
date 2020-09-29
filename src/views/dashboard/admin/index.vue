@@ -4,7 +4,9 @@
     <panel-group @handleSetLineChartData="handleSetLineChartData"/>
 
     <el-row style="background:#fff;padding:16px 16px 0;margin-bottom:32px;">
+      <el-col :xs="24" :sm="24" :lg="24">
       <line-chart :chart-data="lineChartData"/>
+      </el-col>
     </el-row>
 
     <el-row :gutter="32">
@@ -13,45 +15,30 @@
           <bar-chart/>
         </div>
       </el-col>
+
       <el-col :xs="24" :sm="24" :lg="16">
-        <div class="pending-thing">
-          <div class="text-box">
-            <div class="card-panel-description">
-              <div class="card-panel-text">
-                待处理事物
-              </div>
-            </div>
-          </div>
-          <div class="ss">
-            <div class="order-left">
-                <div class="order-left-1">
-                  待处理订单
-                </div>
-            </div>
-            <div class="order-right">
-              <div class="order-right-2">
-                已完成订单
-              </div>
-            </div>
-          </div>
+        <div class="chart-wrapper">
+          <deal-things></deal-things>
         </div>
       </el-col>
     </el-row>
 
-    <el-row :gutter="8">
-      <el-col :xs="{span: 24}" :sm="{span: 24}" :md="{span: 24}" :lg="{span: 12}" :xl="{span: 12}"
-              style="padding-right:8px;margin-bottom:30px;">
-        <transaction-table/>
-      </el-col>
-      <el-col :xs="{span: 24}" :sm="{span: 12}" :md="{span: 12}" :lg="{span: 6}" :xl="{span: 6}"
-              style="margin-bottom:30px;">
-        <todo-list/>
-      </el-col>
-      <el-col :xs="{span: 24}" :sm="{span: 12}" :md="{span: 12}" :lg="{span: 6}" :xl="{span: 6}"
-              style="margin-bottom:30px;">
-        <box-card/>
-      </el-col>
-    </el-row>
+
+
+<!--    <el-row :gutter="8">-->
+<!--      <el-col :xs="{span: 24}" :sm="{span: 24}" :md="{span: 24}" :lg="{span: 12}" :xl="{span: 12}"-->
+<!--              style="padding-right:8px;margin-bottom:30px;">-->
+<!--        <transaction-table/>-->
+<!--      </el-col>-->
+<!--      <el-col :xs="{span: 24}" :sm="{span: 12}" :md="{span: 12}" :lg="{span: 6}" :xl="{span: 6}"-->
+<!--              style="margin-bottom:30px;">-->
+<!--        <todo-list/>-->
+<!--      </el-col>-->
+<!--      <el-col :xs="{span: 24}" :sm="{span: 12}" :md="{span: 12}" :lg="{span: 6}" :xl="{span: 6}"-->
+<!--              style="margin-bottom:30px;">-->
+<!--        <box-card/>-->
+<!--      </el-col>-->
+<!--    </el-row>-->
   </div>
 </template>
 
@@ -60,6 +47,7 @@
   import PanelGroup from './components/PanelGroup'
   import BarChart from './components/BarChart'
   import LineChart from './components/LineChart'
+  import DealThings from "@/views/dashboard/admin/components/DealThings";
 
 
   const lineChartData = {
@@ -87,7 +75,9 @@
       GithubCorner,
       PanelGroup,
       BarChart,
-      LineChart
+      LineChart,
+      DealThings
+
     },
     data() {
       return {
@@ -115,62 +105,10 @@
       right: 0;
     }
 
-    .chart-wrapper {
-      background: #fff;
-      padding: 16px 16px 0;
-      margin-bottom: 32px;
-    }
-
-    .pending-thing {
-      height: 319px;
-      background: #fff;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .text-box {
-      width: 100%;
-      flex: 1;
-      background: #ADD8E6;
-
-      .card-panel-description {
-        float: left;
-        font-weight: bold;
-        margin: 26px 26px 26px 0px;
-
-
-        .card-panel-text {
-          line-height: 18px;
-          margin-left: 20px;
-          font-size: 16px;
-          margin-bottom: 12px;
-        }
+    @media (max-width: 1024px) {
+      .chart-wrapper {
+        padding: 8px;
       }
-
-      .card-panel-num {
-        font-size: 20px;
-      }
-    }
-
-    .ss {
-      flex: 5;
-      display: flex;
-
-      .order-left{
-        flex: 1;
-        /*background: #000;*/
-      }
-      .order-right{
-        flex: 1;
-        /*background: #EFEFEF;*/
-      }
-
-    }
-  }
-
-  @media (max-width: 1024px) {
-    .chart-wrapper {
-      padding: 8px;
     }
   }
 </style>

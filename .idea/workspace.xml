@@ -10,7 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24e9853b-daf3-4556-97a8-e80b1e47a636" name="Default Changelist" comment="1K" />
+    <list default="true" id="24e9853b-daf3-4556-97a8-e80b1e47a636" name="Default Changelist" comment="1K">
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/admin/components/DealThings.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dashboard/admin/components/PanelGroup.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard/admin/components/PanelGroup.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dashboard/admin/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard/admin/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/form/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/form/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/products/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/products/index.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +72,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -90,6 +99,9 @@
       <updated>1601170738938</updated>
       <workItem from="1601170741648" duration="12336000" />
       <workItem from="1601193664095" duration="5658000" />
+      <workItem from="1601199986490" duration="434000" />
+      <workItem from="1601255171144" duration="6904000" />
+      <workItem from="1601349680996" duration="1316000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1601199305127</created>
@@ -117,6 +129,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="1" />
     <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
@@ -125,22 +140,27 @@
       <screen x="2560" y="23" width="1792" height="1039" />
     </state>
     <state x="3334" y="412" key="#Notifications/2560.23.1792.1039/0.23.2560.1417@2560.23.1792.1039" timestamp="1601199354930" />
-    <state x="3286" y="446" width="586" height="248" key="Github.ShareDialog" timestamp="1601199152254">
+    <state x="3286" y="446" width="586" height="248" key="Github.ShareDialog" timestamp="1601200271420">
       <screen x="2560" y="23" width="1792" height="1039" />
     </state>
-    <state x="3286" y="446" width="586" height="248" key="Github.ShareDialog/2560.23.1792.1039/0.23.2560.1417@2560.23.1792.1039" timestamp="1601199152254" />
-    <state x="553" y="201" key="SettingsEditor" timestamp="1601175048898">
-      <screen x="0" y="23" width="1792" height="1039" />
+    <state x="3286" y="446" width="586" height="248" key="Github.ShareDialog/2560.23.1792.1039/0.23.2560.1417@2560.23.1792.1039" timestamp="1601200271420" />
+    <state x="3164" y="254" key="Github.UntrackedFilesDialog" timestamp="1601200290945">
+      <screen x="2560" y="23" width="1792" height="1039" />
+    </state>
+    <state x="3164" y="254" key="Github.UntrackedFilesDialog/2560.23.1792.1039/0.23.2560.1417@2560.23.1792.1039" timestamp="1601200290945" />
+    <state x="3113" y="201" key="SettingsEditor" timestamp="1601200246724">
+      <screen x="2560" y="23" width="1792" height="1039" />
     </state>
     <state x="553" y="201" key="SettingsEditor/0.23.1792.1039@0.23.1792.1039" timestamp="1601175048898" />
+    <state x="3113" y="201" key="SettingsEditor/2560.23.1792.1039/0.23.2560.1417@2560.23.1792.1039" timestamp="1601200246724" />
     <state x="3051" y="282" key="Vcs.Push.Dialog.v2" timestamp="1601199340874">
       <screen x="2560" y="23" width="1792" height="1039" />
     </state>
     <state x="3051" y="282" key="Vcs.Push.Dialog.v2/2560.23.1792.1039/0.23.2560.1417@2560.23.1792.1039" timestamp="1601199340874" />
-    <state x="3204" y="438" width="733" height="208" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601199413849">
+    <state x="3204" y="438" width="733" height="208" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601200091483">
       <screen x="2560" y="23" width="1792" height="1039" />
     </state>
-    <state x="3204" y="438" width="733" height="208" key="git4idea.remote.GitConfigureRemotesDialog/2560.23.1792.1039/0.23.2560.1417@2560.23.1792.1039" timestamp="1601199413849" />
+    <state x="3204" y="438" width="733" height="208" key="git4idea.remote.GitConfigureRemotesDialog/2560.23.1792.1039/0.23.2560.1417@2560.23.1792.1039" timestamp="1601200091483" />
     <state x="1060" y="343" width="670" height="676" key="search.everywhere.popup" timestamp="1601183460226">
       <screen x="0" y="23" width="2560" height="1359" />
     </state>
