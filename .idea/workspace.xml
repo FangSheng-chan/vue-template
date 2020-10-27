@@ -11,14 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24e9853b-daf3-4556-97a8-e80b1e47a636" name="Default Changelist" comment="1K">
-      <change afterPath="$PROJECT_DIR$/src/views/dashboard/admin/components/DealThings.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/chart/shiyutu.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/dashboard/admin/components/PanelGroup.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard/admin/components/PanelGroup.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/dashboard/admin/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard/admin/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/form/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/form/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/products/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/products/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/table/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/table/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views/dashboard/admin/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue-element-admin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -76,15 +74,16 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/views/dashboard/admin" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/views/dashboard/admin/components" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/views/dashboard/components" />
       <recent name="$PROJECT_DIR$/src/icons/svg" />
       <recent name="$PROJECT_DIR$/src/views/products" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\learn\vue-template\src\components" />
+      <recent name="$PROJECT_DIR$/src/views/dashboard/admin" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -102,6 +101,9 @@
       <workItem from="1601199986490" duration="434000" />
       <workItem from="1601255171144" duration="6904000" />
       <workItem from="1601349680996" duration="1316000" />
+      <workItem from="1601385038525" duration="438000" />
+      <workItem from="1603809262510" duration="4526000" />
+      <workItem from="1603813964780" duration="1871000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1601199305127</created>
@@ -140,6 +142,10 @@
       <screen x="2560" y="23" width="1792" height="1039" />
     </state>
     <state x="3334" y="412" key="#Notifications/2560.23.1792.1039/0.23.2560.1417@2560.23.1792.1039" timestamp="1601199354930" />
+    <state x="1420" y="483" key="FileChooserDialogImpl" timestamp="1603809609729">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1420" y="483" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1603809609729" />
     <state x="3286" y="446" width="586" height="248" key="Github.ShareDialog" timestamp="1601200271420">
       <screen x="2560" y="23" width="1792" height="1039" />
     </state>
@@ -153,6 +159,10 @@
     </state>
     <state x="553" y="201" key="SettingsEditor/0.23.1792.1039@0.23.1792.1039" timestamp="1601175048898" />
     <state x="3113" y="201" key="SettingsEditor/2560.23.1792.1039/0.23.2560.1417@2560.23.1792.1039" timestamp="1601200246724" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1603809551582">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.2560.1400@0.0.2560.1400" timestamp="1603809551582" />
     <state x="3051" y="282" key="Vcs.Push.Dialog.v2" timestamp="1601199340874">
       <screen x="2560" y="23" width="1792" height="1039" />
     </state>
@@ -161,9 +171,10 @@
       <screen x="2560" y="23" width="1792" height="1039" />
     </state>
     <state x="3204" y="438" width="733" height="208" key="git4idea.remote.GitConfigureRemotesDialog/2560.23.1792.1039/0.23.2560.1417@2560.23.1792.1039" timestamp="1601200091483" />
-    <state x="1060" y="343" width="670" height="676" key="search.everywhere.popup" timestamp="1601183460226">
-      <screen x="0" y="23" width="2560" height="1359" />
+    <state x="1060" y="330" width="672" height="697" key="search.everywhere.popup" timestamp="1603811326382">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="1060" y="330" width="672" height="697" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1603811326382" />
     <state x="1060" y="343" width="670" height="676" key="search.everywhere.popup/2560.23.1792.1097/0.23.2560.1359@0.23.2560.1359" timestamp="1601183460226" />
   </component>
 </project>

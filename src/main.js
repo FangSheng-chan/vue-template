@@ -16,6 +16,7 @@ import router from './router'
 
 import '@/icons' // icon
 import '@/permission' // permission control
+import echarts from 'echarts'
 
 /**
  * If you don't want to use mock-server
@@ -29,6 +30,7 @@ if (process.env.NODE_ENV === 'production') {
   const { mockXHR } = require('../mock')
   mockXHR()
 }
+Vue.prototype.$echarts = echarts
 
 Vue.use(VueAxios,Axios)
 // set ElementUI lang to EN
@@ -37,6 +39,8 @@ Vue.use(ElementUI, { locale })
 // Vue.use(ElementUI)
 
 Vue.config.productionTip = false
+
+
 
 new Vue({
   el: '#app',
